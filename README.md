@@ -46,10 +46,10 @@ npm install -D
 ```
 npm run dev
 ```
-## Sending the request
+## Sending the request using hostUrl: https://identity-reconciliation.onrender.com
 * curl
 ```
-curl --location 'http://localhost:3000/v1/identify' \
+curl --location 'https://identity-reconciliation.onrender.com/v1/identify' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'email=akash@gmail.com' \
 --data-urlencode 'phoneNumber=8383841'
